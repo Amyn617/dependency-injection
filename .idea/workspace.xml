@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f47ce72-4951-4b68-92b8-a67e89ab7922" name="Changes" comment="l'injection des dépendances par instanciation statique">
-      <change afterPath="$PROJECT_DIR$/config.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Presentation/PresentationV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ext/DaoImplV2.java" afterDir="false" />
+    <list default="true" id="6f47ce72-4951-4b68-92b8-a67e89ab7922" name="Changes" comment="Injection des dépendances par instanciation dynamique">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/DaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/DaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Metier/MetierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Metier/MetierImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Presentation/PresentationV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Presentation/PresentationV1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +47,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -70,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740389485823</updated>
-      <workItem from="1740389486930" duration="5202000" />
+      <workItem from="1740389486930" duration="6265000" />
     </task>
     <task id="LOCAL-00001" summary="Création du projet">
       <option name="closed" value="true" />
@@ -104,7 +101,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740393484091</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Injection des dépendances par instanciation dynamique">
+      <option name="closed" value="true" />
+      <created>1740394990683</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740394990683</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +120,7 @@
     <MESSAGE value="Création et implémentation de la couche DAO" />
     <MESSAGE value="Création et implémentation de la couche metier" />
     <MESSAGE value="l'injection des dépendances par instanciation statique" />
-    <option name="LAST_COMMIT_MESSAGE" value="l'injection des dépendances par instanciation statique" />
+    <MESSAGE value="Injection des dépendances par instanciation dynamique" />
+    <option name="LAST_COMMIT_MESSAGE" value="Injection des dépendances par instanciation dynamique" />
   </component>
 </project>
