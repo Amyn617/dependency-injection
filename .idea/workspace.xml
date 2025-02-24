@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f47ce72-4951-4b68-92b8-a67e89ab7922" name="Changes" comment="Création et implémentation de la couche metier">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Presentation/PresentationV1.java" afterDir="false" />
+    <list default="true" id="6f47ce72-4951-4b68-92b8-a67e89ab7922" name="Changes" comment="l'injection des dépendances par instanciation statique">
+      <change afterPath="$PROJECT_DIR$/config.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Presentation/PresentationV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ext/DaoImplV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Metier/MetierImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Metier/MetierImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Metier/MetierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Metier/MetierImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Presentation/PresentationV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Presentation/PresentationV1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.PresentationV1.executor": "Run",
+    "Application.PresentationV2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -67,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740389485823</updated>
-      <workItem from="1740389486930" duration="3868000" />
+      <workItem from="1740389486930" duration="5202000" />
     </task>
     <task id="LOCAL-00001" summary="Création du projet">
       <option name="closed" value="true" />
@@ -93,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740392863510</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="l'injection des dépendances par instanciation statique">
+      <option name="closed" value="true" />
+      <created>1740393484091</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1740393484091</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +114,7 @@
     <MESSAGE value="Création du projet" />
     <MESSAGE value="Création et implémentation de la couche DAO" />
     <MESSAGE value="Création et implémentation de la couche metier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Création et implémentation de la couche metier" />
+    <MESSAGE value="l'injection des dépendances par instanciation statique" />
+    <option name="LAST_COMMIT_MESSAGE" value="l'injection des dépendances par instanciation statique" />
   </component>
 </project>
