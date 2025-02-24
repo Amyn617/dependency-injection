@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f47ce72-4951-4b68-92b8-a67e89ab7922" name="Changes" comment="Injection des dépendances par instanciation dynamique">
+    <list default="true" id="6f47ce72-4951-4b68-92b8-a67e89ab7922" name="Changes" comment="Injection des dépendances en utilisant le Framework Spring (Version annotations)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Presentation/PresAvecSpringXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ext/DaoImplV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/DaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/DaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Metier/MetierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Metier/MetierImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Presentation/PresentationV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Presentation/PresentationV1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -36,6 +39,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.PresAvecSpringXML.executor": "Run",
     "Application.PresentationV1.executor": "Run",
     "Application.PresentationV2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -67,7 +71,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740389485823</updated>
-      <workItem from="1740389486930" duration="6265000" />
+      <workItem from="1740389486930" duration="7070000" />
     </task>
     <task id="LOCAL-00001" summary="Création du projet">
       <option name="closed" value="true" />
@@ -109,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740394990683</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Injection des dépendances en utilisant le Framework Spring (Version annotations)">
+      <option name="closed" value="true" />
+      <created>1740396100500</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740396100500</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +133,7 @@
     <MESSAGE value="Création et implémentation de la couche metier" />
     <MESSAGE value="l'injection des dépendances par instanciation statique" />
     <MESSAGE value="Injection des dépendances par instanciation dynamique" />
-    <option name="LAST_COMMIT_MESSAGE" value="Injection des dépendances par instanciation dynamique" />
+    <MESSAGE value="Injection des dépendances en utilisant le Framework Spring (Version annotations)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Injection des dépendances en utilisant le Framework Spring (Version annotations)" />
   </component>
 </project>
